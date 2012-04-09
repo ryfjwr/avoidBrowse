@@ -1,0 +1,11 @@
+{
+  "name" : "Avoid Browse",
+  "version" : "0.1",
+  "background_page" : "background.html",
+  "description" : "avoid opening some domain web pages",
+  "permissions": [ "contentSettings", "tabs" , "http://*/", "https://*/", "file:///*", "unlimitedStorage"],
+  "browser_action": {
+     "default_icon": "contentSettings.png",
+     "popup":        "popup.html"
+   }
+}
